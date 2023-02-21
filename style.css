@@ -1,0 +1,15 @@
+.bg-clr {
+    background-color: rgba(91, 41, 0, 0.776);
+
+}
+
+.upgrade {
+    background-image: url('https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?b=1&s=170667a&w=0&k=20&c=QFTFteDQyrkmK9gTzquXRFU2JhzuN5dm7irpjxHw2tU=');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list {
+    list-style: none;
+}
