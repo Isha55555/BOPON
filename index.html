@@ -16,118 +16,120 @@
     <!-- header -->
     <header>
         <!-- navbar section -->
-        <div>
-            <nav class="navbar bg-clr navbar-dark p-2 text-white fixed-top">
-                <div class="container-fluid ">
-                    <a class="navbar-brand fw-bold fs-3 text" href="#">BOPON</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                        aria-labelledby="offcanvasDarkNavbarLabel">
-                        <div class="offcanvas-header">
 
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Log In or Register
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-dark">
-                                        <li><a class="dropdown-item" href="#">Log In</a></li>
-                                        <li><a class="dropdown-item" href="#">Register Here</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Our Motto</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <form class="d-flex mt-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-success" type="submit">Search</button>
-                            </form>
-                        </div>
+        <nav class="navbar bg-clr navbar-dark text-bg-dark p-2 text-white fixed-top">
+            <div class="container-fluid ">
+                <a class="navbar-brand fw-bold fs-3 text" href="#">BOPON</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Log In or Register
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Log In</a></li>
+                                    <li><a class="dropdown-item" href="#">Register Here</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Our Motto</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
+
+
+        <!-- Carousel section -->
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide text-white">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item text-white active" data-bs-interval="10000">
+                    <img src="https://media.istockphoto.com/id/1346744481/photo/anonymous-chef-harvesting-fresh-vegetables-on-a-farm.jpg?b=1&s=170667a&w=0&k=20&c=cX67PyM5-oJrnKlH6hSTUYGEAYSsaFCYVRVSHDTOJc4="
+                        class="d-block w-100 vh-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block fs-1">
+                        <h5 class="text-bold text-center mx-auto p-5 fs-1 ">Bopok are producing safe food for
+                            you
+                            and your
+                            family</h5>
+
+                        <p class="m-5 mb-5 pb-5 fs-3">Ensure your safety here</p>
+                        <button type="button" class="btn btn-light rounded-pill p-3 text-bold">Explore Here</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://media.istockphoto.com/id/1308606393/photo/corn-field-in-agricultural-garden-and-light-shines-sunset.jpg?b=1&s=170667a&w=0&k=20&c=KcQPWv5gUPQbIlmfmBGuQxx4YkoJRY9sy7HV0Mypkso="
+                        class="d-block w-100 vh-100" alt="...">
+                    <div class="carousel-caption text-white d-none d-md-block">
+                        <h5 class="text-bold text-center mx-auto p-5 fs-1 ">Bopok are producing safe food for
+                            you
+                            and your
+                            family</h5>
+
+                        <p class="m-5 mb-5 pb-5 fs-3">Ensure your safety here</p>
+                        <button type="button" class="btn btn-light rounded-pill p-3 text-bold">Explore Here</button>
+                    </div>
+                </div>
+                <div class="carousel-item text-white">
+                    <img src="https://media.istockphoto.com/id/1316321081/photo/farmer-standing-on-corn-field-against-sky.jpg?b=1&s=170667a&w=0&k=20&c=3wuCArJF7HTxS-4t8ZrnlbsnBsGS0MCFa8vJOfiCQt0="
+                        class="d-block w-100 vh-100" alt="...">
+                    <div class="carousel-caption fs-1 d-none d-md-block">
+                        <h5 class="text-bold text-center mx-auto p-5 fs-1 ">Bopok are producing safe food for
+                            you
+                            and your
+                            family</h5>
+
+                        <p class="m-5 mb-5 pb-5 fs-3">Ensure your safety here</p>
+                        <button type="button" class="btn btn-light rounded-pill p-3 text-bold">Explore Here</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-
     </header>
 
-    <!-- Carousel section -->
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide text-white">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item text-white active" data-bs-interval="10000">
-                <img src="https://media.istockphoto.com/id/1346744481/photo/anonymous-chef-harvesting-fresh-vegetables-on-a-farm.jpg?b=1&s=170667a&w=0&k=20&c=cX67PyM5-oJrnKlH6hSTUYGEAYSsaFCYVRVSHDTOJc4="
-                    class="d-block w-100 vh-100" alt="...">
-                <div class="carousel-caption d-none d-md-block fs-1">
-                    <h5 class="text-bold text-center mx-auto p-5 fs-1 ">Bopok are producing safe food for
-                        you
-                        and your
-                        family</h5>
-
-                    <p class="m-5 mb-5 pb-5 fs-3">Ensure your safety here</p>
-                    <button type="button" class="btn btn-light rounded-pill p-3 text-bold">Explore Here</button>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://media.istockphoto.com/id/1308606393/photo/corn-field-in-agricultural-garden-and-light-shines-sunset.jpg?b=1&s=170667a&w=0&k=20&c=KcQPWv5gUPQbIlmfmBGuQxx4YkoJRY9sy7HV0Mypkso="
-                    class="d-block w-100 vh-100" alt="...">
-                <div class="carousel-caption text-white d-none d-md-block">
-                    <h5 class="text-bold text-center mx-auto p-5 fs-1 ">Bopok are producing safe food for
-                        you
-                        and your
-                        family</h5>
-
-                    <p class="m-5 mb-5 pb-5 fs-3">Ensure your safety here</p>
-                    <button type="button" class="btn btn-light rounded-pill p-3 text-bold">Explore Here</button>
-                </div>
-            </div>
-            <div class="carousel-item text-white">
-                <img src="https://media.istockphoto.com/id/1316321081/photo/farmer-standing-on-corn-field-against-sky.jpg?b=1&s=170667a&w=0&k=20&c=3wuCArJF7HTxS-4t8ZrnlbsnBsGS0MCFa8vJOfiCQt0="
-                    class="d-block w-100 vh-100" alt="...">
-                <div class="carousel-caption fs-1 d-none d-md-block">
-                    <h5 class="text-bold text-center mx-auto p-5 fs-1 ">Bopok are producing safe food for
-                        you
-                        and your
-                        family</h5>
-
-                    <p class="m-5 mb-5 pb-5 fs-3">Ensure your safety here</p>
-                    <button type="button" class="btn btn-light rounded-pill p-3 text-bold">Explore Here</button>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
     <!-- main -->
     <main>
         <!-- cards section -->
@@ -178,7 +180,7 @@
 
 
         <!-- upgrade section -->
-        <section class="upgrade text-white text-start mx-1 rounded ">
+        <section class="upgrade text-white text-start rounded ">
             <h1 class=" ms-5 pt-5 pb-4">Upgrade You <br> and Agriculture</h1>
             <h4 class="ms-5">Get Connected with Bopok to get real time updates</h4>
             <button type="button" class="btn btn-light rounded-pill p-3 text-bold ms-5 mt-5">Research</button>
